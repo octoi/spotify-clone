@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_clone/utils/colors.dart';
+import 'package:spotify_clone/utils/constants.dart';
+import 'package:spotify_clone/widgets/cards.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -59,6 +60,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ],
           ),
+        ),
+      ),
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(10.0),
+        child: Column(
+          children: [
+            Cards(),
+          ],
         ),
       ),
     );

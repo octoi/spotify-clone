@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/screens/home_screen.dart';
-import 'package:spotify_clone/utils/colors.dart';
+import 'package:spotify_clone/utils/constants.dart';
 
 void main() {
   runApp(Spotify());
