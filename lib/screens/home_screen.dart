@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/utils/constants.dart';
 import 'package:spotify_clone/widgets/cards.dart';
+import 'package:spotify_clone/widgets/current.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -67,6 +68,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             Cards(),
+            Current(),
           ],
         ),
       ),
