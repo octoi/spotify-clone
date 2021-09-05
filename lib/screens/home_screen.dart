@@ -33,6 +33,34 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: BottomAppBar(
+        elevation: 0.0,
+        color: appPrimaryColor,
+        child: IconTheme(
+          data: IconThemeData(color: appTextColor),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              IconButton(
+                icon: const Icon(Icons.home),
+                onPressed: () {},
+              ),
+              IconButton(
+                icon: const Icon(Icons.search_outlined),
+                onPressed: () {},
+              ),
+              IconButton(
+                icon: const Icon(Icons.playlist_add_outlined),
+                onPressed: () {},
+              ),
+              IconButton(
+                icon: const Icon(Icons.account_circle_outlined),
+                onPressed: () {},
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
